@@ -1,0 +1,26 @@
+@define-color color_bg #000000;
+@define-color color_bg_secondary #202020;
+
+* {
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    background-image: none;
+    font-family: monospace;
+}
+
+#bar, popover, popover contents, calendar, popover .view {
+    background-color: @color_bg;
+}
+box, button, label {
+    background-color: @color_bg;
+    color: var(--color-white);
+}
+
+button:hover, button:active, *:selected {
+    background-color: @color_bg_secondary;
+}
+
+.clock {
+    font-weight: bold;
+}
