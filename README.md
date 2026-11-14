@@ -17,6 +17,8 @@ swayosd (volume/caps/numpad notification)
 
 rofi (menu)
 
+mako (notifications)
+
 plasma's login manager (started with kde before using wayfire, keeping the launcher for now, might explore other options later but i'm lazy)
 
 ## Tools:
