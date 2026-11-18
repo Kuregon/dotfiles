@@ -19,6 +19,8 @@ rofi (menu)
 
 mako (notifications)
 
+grim, slurp and wl-clipboard for scrrenshot, screen selection and clipboard interraction
+
 plasma's login manager (started with kde before using wayfire, keeping the launcher for now, might explore other options later but i'm lazy)
 
 ## Tools:
