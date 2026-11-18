@@ -12,7 +12,6 @@ name = "launcher-btn"
 label = "󰄛"
 on_click = "!rofi -show drun"
 
-
 [[start]]
 type = "launcher"
 favorites = []

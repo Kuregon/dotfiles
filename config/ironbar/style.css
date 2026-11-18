@@ -1,5 +1,8 @@
 @define-color color_bg #000000;
 @define-color color_bg_secondary #202020;
+@define-color color_font #efeae9;
+@define-color orange_highlight #f66813;
+@define-color red_highlight #ba3934;
 
 * {
     border-radius: 0;
@@ -12,13 +15,22 @@
 #bar, popover, popover contents, calendar, popover .view {
     background-color: @color_bg;
 }
+
 box, button, label {
     background-color: @color_bg;
-    color: var(--color-white);
+    color: @color_font;
 }
 
-button:hover, button:active, *:selected {
-    background-color: @color_bg_secondary;
+button {
+    border: 1px solid transparent;
+}
+
+button:hover, button:active, *:selected {    
+    border: 1px solid @orange_highlight;
+}
+
+.launcher .item.focused {
+    border-bottom: 2px solid @red_highlight;
 }
 
 .clock {
